@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F87A68CF1C7CA49D009AB422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A68CE1C7CA49D009AB422 /* AppDelegate.swift */; };
+		F87A68D11C7CA49D009AB422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87A68D01C7CA49D009AB422 /* Assets.xcassets */; };
+		F87A68D41C7CA49D009AB422 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F87A68D21C7CA49D009AB422 /* MainMenu.xib */; };
+		F87A68DF1C7CA49D009AB422 /* SwickGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A68DE1C7CA49D009AB422 /* SwickGenTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87A68DB1C7CA49D009AB422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87A68C31C7CA49D009AB422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87A68CA1C7CA49D009AB422;
+			remoteInfo = SwickGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F87A68CB1C7CA49D009AB422 /* SwickGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwickGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87A68CE1C7CA49D009AB422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F87A68D01C7CA49D009AB422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87A68D31C7CA49D009AB422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F87A68D51C7CA49D009AB422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87A68DA1C7CA49D009AB422 /* SwickGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwickGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87A68DE1C7CA49D009AB422 /* SwickGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwickGenTests.swift; sourceTree = "<group>"; };
+		F87A68E01C7CA49D009AB422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F87A68C81C7CA49D009AB422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A68D71C7CA49D009AB422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F87A68C21C7CA49D009AB422 = {
+			isa = PBXGroup;
+			children = (
+				F87A68CD1C7CA49D009AB422 /* SwickGen */,
+				F87A68DD1C7CA49D009AB422 /* SwickGenTests */,
+				F87A68CC1C7CA49D009AB422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F87A68CC1C7CA49D009AB422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87A68CB1C7CA49D009AB422 /* SwickGen.app */,
+				F87A68DA1C7CA49D009AB422 /* SwickGenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87A68CD1C7CA49D009AB422 /* SwickGen */ = {
+			isa = PBXGroup;
+			children = (
+				F87A68CE1C7CA49D009AB422 /* AppDelegate.swift */,
+				F87A68D01C7CA49D009AB422 /* Assets.xcassets */,
+				F87A68D21C7CA49D009AB422 /* MainMenu.xib */,
+				F87A68D51C7CA49D009AB422 /* Info.plist */,
+			);
+			path = SwickGen;
+			sourceTree = "<group>";
+		};
+		F87A68DD1C7CA49D009AB422 /* SwickGenTests */ = {
+			isa = PBXGroup;
+			children = (
+				F87A68DE1C7CA49D009AB422 /* SwickGenTests.swift */,
+				F87A68E01C7CA49D009AB422 /* Info.plist */,
+			);
+			path = SwickGenTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F87A68CA1C7CA49D009AB422 /* SwickGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87A68E31C7CA49D009AB422 /* Build configuration list for PBXNativeTarget "SwickGen" */;
+			buildPhases = (
+				F87A68C71C7CA49D009AB422 /* Sources */,
+				F87A68C81C7CA49D009AB422 /* Frameworks */,
+				F87A68C91C7CA49D009AB422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwickGen;
+			productName = SwickGen;
+			productReference = F87A68CB1C7CA49D009AB422 /* SwickGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F87A68D91C7CA49D009AB422 /* SwickGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87A68E61C7CA49D009AB422 /* Build configuration list for PBXNativeTarget "SwickGenTests" */;
+			buildPhases = (
+				F87A68D61C7CA49D009AB422 /* Sources */,
+				F87A68D71C7CA49D009AB422 /* Frameworks */,
+				F87A68D81C7CA49D009AB422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87A68DC1C7CA49D009AB422 /* PBXTargetDependency */,
+			);
+			name = SwickGenTests;
+			productName = SwickGenTests;
+			productReference = F87A68DA1C7CA49D009AB422 /* SwickGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F87A68C31C7CA49D009AB422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Artyom Y. Razinov";
+				TargetAttributes = {
+					F87A68CA1C7CA49D009AB422 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F87A68D91C7CA49D009AB422 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F87A68CA1C7CA49D009AB422;
+					};
+				};
+			};
+			buildConfigurationList = F87A68C61C7CA49D009AB422 /* Build configuration list for PBXProject "SwickGen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F87A68C21C7CA49D009AB422;
+			productRefGroup = F87A68CC1C7CA49D009AB422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F87A68CA1C7CA49D009AB422 /* SwickGen */,
+				F87A68D91C7CA49D009AB422 /* SwickGenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F87A68C91C7CA49D009AB422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87A68D11C7CA49D009AB422 /* Assets.xcassets in Resources */,
+				F87A68D41C7CA49D009AB422 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A68D81C7CA49D009AB422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F87A68C71C7CA49D009AB422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87A68CF1C7CA49D009AB422 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A68D61C7CA49D009AB422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87A68DF1C7CA49D009AB422 /* SwickGenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87A68DC1C7CA49D009AB422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87A68CA1C7CA49D009AB422 /* SwickGen */;
+			targetProxy = F87A68DB1C7CA49D009AB422 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F87A68D21C7CA49D009AB422 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87A68D31C7CA49D009AB422 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F87A68E11C7CA49D009AB422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F87A68E21C7CA49D009AB422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F87A68E41C7CA49D009AB422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwickGen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwickGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F87A68E51C7CA49D009AB422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwickGen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwickGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F87A68E71C7CA49D009AB422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwickGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwickGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwickGen.app/Contents/MacOS/SwickGen";
+			};
+			name = Debug;
+		};
+		F87A68E81C7CA49D009AB422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwickGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwickGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwickGen.app/Contents/MacOS/SwickGen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F87A68C61C7CA49D009AB422 /* Build configuration list for PBXProject "SwickGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87A68E11C7CA49D009AB422 /* Debug */,
+				F87A68E21C7CA49D009AB422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87A68E31C7CA49D009AB422 /* Build configuration list for PBXNativeTarget "SwickGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87A68E41C7CA49D009AB422 /* Debug */,
+				F87A68E51C7CA49D009AB422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F87A68E61C7CA49D009AB422 /* Build configuration list for PBXNativeTarget "SwickGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87A68E71C7CA49D009AB422 /* Debug */,
+				F87A68E81C7CA49D009AB422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F87A68C31C7CA49D009AB422 /* Project object */;
+}
