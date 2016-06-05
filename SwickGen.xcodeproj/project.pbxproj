@@ -7,31 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F87A68CF1C7CA49D009AB422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A68CE1C7CA49D009AB422 /* AppDelegate.swift */; };
-		F87A68D11C7CA49D009AB422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87A68D01C7CA49D009AB422 /* Assets.xcassets */; };
-		F87A68D41C7CA49D009AB422 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F87A68D21C7CA49D009AB422 /* MainMenu.xib */; };
+		F83683DE1C8C6FF2005442E5 /* SwickSourceCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83683DD1C8C6FF2005442E5 /* SwickSourceCodeGenerator.swift */; };
+		F84706281C8F20A5007902CE /* Switt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84706271C8F20A5007902CE /* Switt.framework */; };
+		F84706291C8F20A5007902CE /* Switt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84706271C8F20A5007902CE /* Switt.framework */; };
+		F847062A1C8F20AB007902CE /* Switt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F84706271C8F20A5007902CE /* Switt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F847062C1C8F25C7007902CE /* TestingSwickFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A690B1C7CA5A5009AB422 /* TestingSwickFile.swift */; };
 		F87A68DF1C7CA49D009AB422 /* SwickGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A68DE1C7CA49D009AB422 /* SwickGenTests.swift */; };
+		F87A69031C7CA59A009AB422 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A68F21C7CA59A009AB422 /* main.swift */; };
+		F87A690C1C7CA5A5009AB422 /* TestingSwickFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A690B1C7CA5A5009AB422 /* TestingSwickFile.swift */; };
+		F87A691B1C7CA818009AB422 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87A69171C7CA806009AB422 /* Nimble.framework */; };
+		F87A691C1C7CA81A009AB422 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87A69181C7CA806009AB422 /* Quick.framework */; };
+		F87A692F1C7CAB95009AB422 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F87A69171C7CA806009AB422 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F87A69301C7CAB95009AB422 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F87A69181C7CA806009AB422 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F889C3991D0321C200A6990E /* Switt.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F84706271C8F20A5007902CE /* Switt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F889C39C1D0321F000A6990E /* Antlr4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F889C39A1D0321F000A6990E /* Antlr4.framework */; };
+		F889C39D1D0321F000A6990E /* Antlr4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F889C39A1D0321F000A6990E /* Antlr4.framework */; };
+		F889C39E1D0321F000A6990E /* SwiftGrammar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F889C39B1D0321F000A6990E /* SwiftGrammar.framework */; };
+		F889C39F1D0321F000A6990E /* SwiftGrammar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F889C39B1D0321F000A6990E /* SwiftGrammar.framework */; };
+		F889C3A01D0321F500A6990E /* Antlr4.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F889C39A1D0321F000A6990E /* Antlr4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F889C3A11D0321F500A6990E /* SwiftGrammar.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F889C39B1D0321F000A6990E /* SwiftGrammar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F889C3A31D03229700A6990E /* SwiftGrammar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F889C39B1D0321F000A6990E /* SwiftGrammar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F889C3A41D03229900A6990E /* Antlr4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F889C39A1D0321F000A6990E /* Antlr4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F87A68DB1C7CA49D009AB422 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F87A68C31C7CA49D009AB422 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F87A68CA1C7CA49D009AB422;
-			remoteInfo = SwickGen;
+/* Begin PBXCopyFilesBuildPhase section */
+		F87A69101C7CA730009AB422 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F889C3A41D03229900A6990E /* Antlr4.framework in Embed Frameworks */,
+				F847062A1C8F20AB007902CE /* Switt.framework in Embed Frameworks */,
+				F889C3A31D03229700A6990E /* SwiftGrammar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+		F87A692E1C7CAB8D009AB422 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F889C3A01D0321F500A6990E /* Antlr4.framework in CopyFiles */,
+				F889C3A11D0321F500A6990E /* SwiftGrammar.framework in CopyFiles */,
+				F889C3991D0321C200A6990E /* Switt.framework in CopyFiles */,
+				F87A692F1C7CAB95009AB422 /* Nimble.framework in CopyFiles */,
+				F87A69301C7CAB95009AB422 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C4D6DF71FFDCD6C0F32578C0 /* Pods_SwickGenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwickGenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F560175698A8286CD5ACC04D /* Pods_SwickGen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwickGen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83683DD1C8C6FF2005442E5 /* SwickSourceCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwickSourceCodeGenerator.swift; sourceTree = "<group>"; };
+		F84706271C8F20A5007902CE /* Switt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Switt.framework; path = Carthage/Build/Mac/Switt.framework; sourceTree = "<group>"; };
 		F87A68CB1C7CA49D009AB422 /* SwickGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwickGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F87A68CE1C7CA49D009AB422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F87A68D01C7CA49D009AB422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F87A68D31C7CA49D009AB422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F87A68D51C7CA49D009AB422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F87A68DA1C7CA49D009AB422 /* SwickGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwickGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87A68DE1C7CA49D009AB422 /* SwickGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwickGenTests.swift; sourceTree = "<group>"; };
 		F87A68E01C7CA49D009AB422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87A68F21C7CA59A009AB422 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F87A690B1C7CA5A5009AB422 /* TestingSwickFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingSwickFile.swift; sourceTree = "<group>"; };
+		F87A69171C7CA806009AB422 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		F87A69181C7CA806009AB422 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		F889C39A1D0321F000A6990E /* Antlr4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Antlr4.framework; path = Carthage/Build/Mac/Antlr4.framework; sourceTree = "<group>"; };
+		F889C39B1D0321F000A6990E /* SwiftGrammar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGrammar.framework; path = Carthage/Build/Mac/SwiftGrammar.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F889C39E1D0321F000A6990E /* SwiftGrammar.framework in Frameworks */,
+				F84706281C8F20A5007902CE /* Switt.framework in Frameworks */,
+				F889C39C1D0321F000A6990E /* Antlr4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +93,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F889C39F1D0321F000A6990E /* SwiftGrammar.framework in Frameworks */,
+				F87A691B1C7CA818009AB422 /* Nimble.framework in Frameworks */,
+				F889C39D1D0321F000A6990E /* Antlr4.framework in Frameworks */,
+				F87A691C1C7CA81A009AB422 /* Quick.framework in Frameworks */,
+				F84706291C8F20A5007902CE /* Switt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A32E1747F4AF18A8B7139F49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F560175698A8286CD5ACC04D /* Pods_SwickGen.framework */,
+				C4D6DF71FFDCD6C0F32578C0 /* Pods_SwickGenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8064D831C8C633B00F7CE5B /* CodeGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				F83683DD1C8C6FF2005442E5 /* SwickSourceCodeGenerator.swift */,
+			);
+			path = CodeGeneration;
+			sourceTree = "<group>";
+		};
 		F87A68C21C7CA49D009AB422 = {
 			isa = PBXGroup;
 			children = (
 				F87A68CD1C7CA49D009AB422 /* SwickGen */,
 				F87A68DD1C7CA49D009AB422 /* SwickGenTests */,
+				F87A69121C7CA74C009AB422 /* Carthage */,
 				F87A68CC1C7CA49D009AB422 /* Products */,
+				A32E1747F4AF18A8B7139F49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,9 +144,8 @@
 		F87A68CD1C7CA49D009AB422 /* SwickGen */ = {
 			isa = PBXGroup;
 			children = (
-				F87A68CE1C7CA49D009AB422 /* AppDelegate.swift */,
-				F87A68D01C7CA49D009AB422 /* Assets.xcassets */,
-				F87A68D21C7CA49D009AB422 /* MainMenu.xib */,
+				F8064D831C8C633B00F7CE5B /* CodeGeneration */,
+				F87A68F21C7CA59A009AB422 /* main.swift */,
 				F87A68D51C7CA49D009AB422 /* Info.plist */,
 			);
 			path = SwickGen;
@@ -85,9 +155,38 @@
 			isa = PBXGroup;
 			children = (
 				F87A68DE1C7CA49D009AB422 /* SwickGenTests.swift */,
+				F87A690B1C7CA5A5009AB422 /* TestingSwickFile.swift */,
 				F87A68E01C7CA49D009AB422 /* Info.plist */,
 			);
 			path = SwickGenTests;
+			sourceTree = "<group>";
+		};
+		F87A69121C7CA74C009AB422 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				F87A69131C7CA753009AB422 /* Build */,
+			);
+			name = Carthage;
+			sourceTree = "<group>";
+		};
+		F87A69131C7CA753009AB422 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				F87A69141C7CA757009AB422 /* Mac */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		F87A69141C7CA757009AB422 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				F889C39A1D0321F000A6990E /* Antlr4.framework */,
+				F889C39B1D0321F000A6990E /* SwiftGrammar.framework */,
+				F84706271C8F20A5007902CE /* Switt.framework */,
+				F87A69171C7CA806009AB422 /* Nimble.framework */,
+				F87A69181C7CA806009AB422 /* Quick.framework */,
+			);
+			name = Mac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +199,7 @@
 				F87A68C71C7CA49D009AB422 /* Sources */,
 				F87A68C81C7CA49D009AB422 /* Frameworks */,
 				F87A68C91C7CA49D009AB422 /* Resources */,
+				F87A69101C7CA730009AB422 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -117,11 +217,11 @@
 				F87A68D61C7CA49D009AB422 /* Sources */,
 				F87A68D71C7CA49D009AB422 /* Frameworks */,
 				F87A68D81C7CA49D009AB422 /* Resources */,
+				F87A692E1C7CAB8D009AB422 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F87A68DC1C7CA49D009AB422 /* PBXTargetDependency */,
 			);
 			name = SwickGenTests;
 			productName = SwickGenTests;
@@ -143,7 +243,6 @@
 					};
 					F87A68D91C7CA49D009AB422 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = F87A68CA1C7CA49D009AB422;
 					};
 				};
 			};
@@ -171,8 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A68D11C7CA49D009AB422 /* Assets.xcassets in Resources */,
-				F87A68D41C7CA49D009AB422 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87A68CF1C7CA49D009AB422 /* AppDelegate.swift in Sources */,
+				F847062C1C8F25C7007902CE /* TestingSwickFile.swift in Sources */,
+				F83683DE1C8C6FF2005442E5 /* SwickSourceCodeGenerator.swift in Sources */,
+				F87A69031C7CA59A009AB422 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,30 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87A690C1C7CA5A5009AB422 /* TestingSwickFile.swift in Sources */,
 				F87A68DF1C7CA49D009AB422 /* SwickGenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F87A68DC1C7CA49D009AB422 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F87A68CA1C7CA49D009AB422 /* SwickGen */;
-			targetProxy = F87A68DB1C7CA49D009AB422 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F87A68D21C7CA49D009AB422 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F87A68D31C7CA49D009AB422 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F87A68E11C7CA49D009AB422 /* Debug */ = {
@@ -241,9 +322,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -285,9 +367,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -307,8 +390,11 @@
 		F87A68E41C7CA49D009AB422 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SwickGen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwickGen;
@@ -319,8 +405,11 @@
 		F87A68E51C7CA49D009AB422 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SwickGen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwickGen;
@@ -331,26 +420,30 @@
 		F87A68E71C7CA49D009AB422 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SwickGenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwickGenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwickGen.app/Contents/MacOS/SwickGen";
 			};
 			name = Debug;
 		};
 		F87A68E81C7CA49D009AB422 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = SwickGenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwickGenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwickGen.app/Contents/MacOS/SwickGen";
 			};
 			name = Release;
 		};
@@ -373,6 +466,7 @@
 				F87A68E51C7CA49D009AB422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F87A68E61C7CA49D009AB422 /* Build configuration list for PBXNativeTarget "SwickGenTests" */ = {
 			isa = XCConfigurationList;
@@ -381,6 +475,7 @@
 				F87A68E81C7CA49D009AB422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
